@@ -27,6 +27,13 @@ public class HomeController {
 		System.out.println("git version 1.0");
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
+		String version = "Version 1.2";
+		if(version.contains("1.2") == true) {
+			System.out.println(version);
+		} else {
+			System.out.println("1.2버전이 아닙니다.");
+		}
+		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		

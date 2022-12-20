@@ -9,6 +9,7 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<P> The time on the server is ${serverTime}. </P>
+<p> GIT Version 1.2 </p>
 </body>
 </html>
